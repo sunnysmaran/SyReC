@@ -14,13 +14,13 @@ sudo apt-get install python-dev
 sudo apt-get install gcc-4.8 
 
 
-Install g++-4.8 and do this (in the main terminal (ctrl+alt+t))
+## Install g++-4.8 and do this (in the main terminal (ctrl+alt+t))
 sudo apt-get install g++-4.8 
 
-Install PyQt4 (in the main terminal (ctrl+alt+t))
+# Install PyQt4 (in the main terminal (ctrl+alt+t))
 sudo apt-get install python-qt4 
 
-install libicu48  (in the main terminal (ctrl+alt+t))
+# install libicu48  (in the main terminal (ctrl+alt+t))
 wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/icu/4.8.1.1-3ubuntu0.10/icu_4.8.1.1.orig.tar.gz 
 tar xfz icu_4.8.1.1.orig.tar.gz 
 cd icu 
@@ -30,31 +30,7 @@ make
 sudo make install 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Install cmake 
+# Install cmake 
 
 cd ~/workspace/ (for e.g., inside the main terminal.)
 
@@ -82,14 +58,14 @@ make
 sudo make install 
 
 
-Run this inside /framework
+# Run this inside /framework
 
 ./build.sh 
 
 
 
 
-Run this inside /framework/tools   (linking library path)
+# Run this inside /framework/tools   (linking library path)
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib (in terminal (any)) 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/checksyrec/Downloads/framework/libs/lib (in terminal (any))
@@ -97,19 +73,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/checksyrec/Downloads/framework/lib
 
 
 
-
-
-
-
-
-
-Run this inside /framework/tools (texting gui)
+# Run this inside /framework/tools (texting gui)
 
 python syrec_editor.py
 
 chose any .src file from /framework/benchmarks folder
 
 
-Run this inside /framework/build/examples (texting the total gate (quantum, number of line (qubits)) cost)
+# Run this inside /framework/build/examples (texting the total gate (quantum, number of line (qubits)) cost)
 
 ./test_syrec ../../benchmarks/”.src file”
