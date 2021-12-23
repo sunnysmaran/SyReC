@@ -2,15 +2,15 @@
 
 
 
- Install python2.7 (in the main terminal (ctrl+alt+t)) 
+# Install python2.7 (in the main terminal (ctrl+alt+t)) 
 sudo apt install python-minimal 
 
 
-Install python-dev (in the main terminal (ctrl+alt+t))
+# Install python-dev (in the main terminal (ctrl+alt+t))
 sudo apt-get install python-dev 
 
 
-Install gcc-4.8 and do this (in the main terminal (ctrl+alt+t))
+# Install gcc-4.8 and do this (in the main terminal (ctrl+alt+t))
 sudo apt-get install gcc-4.8 
 
 
