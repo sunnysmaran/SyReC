@@ -51,10 +51,15 @@ sudo ln -s g++-4.8 g++
 come back to cd ~/workspace/ 
 
 wget http://www.cmake.org/files/v3.13/cmake-3.13.4.tar.gz 
+
 tar xf cmake-3.13.4.tar.gz 
+
 cd cmake-3.13.4 
+
 ./configure 
+
 make 
+
 sudo make install 
 
 
