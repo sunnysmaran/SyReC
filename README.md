@@ -22,11 +22,17 @@ sudo apt-get install python-qt4
 
 # install libicu48  (in the main terminal (ctrl+alt+t))
 wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/icu/4.8.1.1-3ubuntu0.10/icu_4.8.1.1.orig.tar.gz 
+
 tar xfz icu_4.8.1.1.orig.tar.gz 
+
 cd icu 
+
 cd source 
+
 ./configure 
+
 make 
+
 sudo make install 
 
 
@@ -38,14 +44,15 @@ sudo apt-get install build-essential
 
 go to cd /usr/bin 
 
-making gcc-4.8 default gcc
+$making gcc-4.8 default gcc$
 
 sudo rm gcc 
 sudo ln -s gcc-4.8 gcc 
 
-making g++-4.8 default g++
+# making g++-4.8 default g++
 
 sudo rm g++ 
+
 sudo ln -s g++-4.8 g++ 
 
 come back to cd ~/workspace/ 
